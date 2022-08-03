@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print ("Hello World from GitHub")
+print ("Hello World from GitHub v2")
