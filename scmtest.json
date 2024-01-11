@@ -1,0 +1,30 @@
+[ {
+  "defaultTab" : "nodes",
+  "description" : "",
+  "executionEnabled" : true,
+  "id" : "42e67f92-e636-4810-838d-0a93728ea4de",
+  "loglevel" : "WARN",
+  "name" : "test",
+  "nodeFilterEditable" : false,
+  "plugins" : {
+    "ExecutionLifecycle" : { }
+  },
+  "runnerSelector" : {
+    "runnerFilterMode" : "LOCAL",
+    "runnerFilterType" : "LOCAL_RUNNER"
+  },
+  "scheduleEnabled" : true,
+  "schedules" : [ ],
+  "sequence" : {
+    "commands" : [ {
+      "configuration" : {
+        "adhocRemoteString" : "echo 'test'"
+      },
+      "nodeStep" : true,
+      "type" : "exec-command"
+    } ],
+    "keepgoing" : false,
+    "strategy" : "node-first"
+  },
+  "uuid" : "42e67f92-e636-4810-838d-0a93728ea4de"
+} ]
